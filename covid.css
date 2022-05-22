@@ -1,0 +1,59 @@
+/*
+ * @author: Bivash Pandey
+ */
+
+/* This is make chart and numeric data float on left */
+.svg-container {
+  float: left;
+}
+
+/* style the heading of the page*/
+#ptitle {
+  background-color: antiquewhite;
+  text-align: center;
+  border-radius: 10px;
+  font-family: sans-serif;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+/* style the label of the dropdown */
+#dlabel {
+  margin-top: 5px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+/* style the dropdown */
+select {
+  padding: 8px 12px;
+  background-color: aliceblue;
+  border: 1px solid #dddddd;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+/* when dropdown is focused */
+select:focus {
+  outline: none;
+  border: 1px solid #aaaaaa;
+}
+
+/* style the additional info displayed at right bottom*/
+#info {
+  color: black;
+  font-size: 22px;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+/* change the colour of font-awesome circles */
+.green-color {
+  color: green;
+}
+
+.red-color {
+  color: red;
+}
